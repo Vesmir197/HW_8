@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: BasisGrotesquePro-Bold;
+    src: url(fonts/BasisGrotesquePro-Bold.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Bold;
+    src: url(fonts/BasisGrotesquePro-Bold.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Medium;
+    src: url(fonts/BasisGrotesquePro-Medium.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Medium;
+    src: url(fonts/BasisGrotesquePro-Medium.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Regular;
+    src: url(fonts/BasisGrotesquePro-Regular.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Regular;
+    src: url(fonts/BasisGrotesquePro-Regular.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Light;
+    src: url(fonts/BasisGrotesquePro-Light.woff);  
+}
+@font-face {
+    font-family: BasisGrotesquePro-Light;
+    src: url(fonts/BasisGrotesquePro-Light.woff2);  
+}
+
+body {
+    font-family:'BasisGrotesquePro' ;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 123vh 123vh 67vh 67vh;
+}
+h4 {
+    margin-top: 18vh;
+    margin-left: 10vw;
+    font-family:'BasisGrotesquePro-Medium' ;
+    font-weight: 700;
+    color: blue;
+}
+.do {
+    display: inline-block;
+    width: 40vw;
+    padding-right: 5vw;
+    margin-left: 10vw;
+    font-family:'BasisGrotesquePro-Bold' ;
+    font-size: 38px;
+    padding-top: 2vh;
+}
+.invest {
+    font-family:'BasisGrotesquePro-Bold' ;
+    font-size: 38px;
+    margin-left: 10vw;  
+}
+p {
+    margin-top: 6vh;
+    margin-left: 10vw;
+   font-family: 'BasisGrotesquePro-Medium'; 
+   font-size: 18px;
+   text-transform: uppercase;
+}
+form {
+    margin-top: 46vh;
+}
+
+.payment-method {
+margin-top: 5%;
+font-family:'BasisGrotesquePro-Light' ;
+color: rgb(108, 105, 105);
+padding: 2%;
+}
+.card {
+    font-family:'BasisGrotesquePro-Regular' ;  
+    margin-left: 10px;
+}
+
+.price {
+    font-family:'BasisGrotesquePro-Regular' ;  
+    border: 1px solid rgb(157, 154, 154);
+    padding: 20px;
+    display: inline-block;
+}
+input:checked + .price {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+ 
+}
+input .price [type="radio"] {
+    display: none;
+}
+
+
