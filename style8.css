@@ -94,7 +94,7 @@ input:checked + .price {
     color: rgb(255, 255, 255);
  
 }
-input .price [type="radio"] {
+input [type="radio"] .price {
     display: none;
 }
 
