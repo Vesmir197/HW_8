@@ -30,12 +30,19 @@
 @font-face {
     font-family: BasisGrotesquePro-Light;
     src: url(fonts/BasisGrotesquePro-Light.woff2);  
+    
+}
+@font-face {
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Light.woff2);  
+    
 }
 
 body {
     font-family:'BasisGrotesquePro' ;
 }
 main {
+    font-family:'BasisGrotesquePro' ;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 123vh 123vh 67vh 67vh;
@@ -82,20 +89,86 @@ padding: 2%;
     font-family:'BasisGrotesquePro-Regular' ;  
     margin-left: 10px;
 }
-
-.price {
-    font-family:'BasisGrotesquePro-Regular' ;  
-    border: 1px solid rgb(157, 154, 154);
-    padding: 20px;
-    display: inline-block;
+div.amount [type="radio"]{
+    display: none;
+    width: 300px;
 }
 input:checked + .price {
+    border: 0px solid rgb(156, 154, 154);
     background-color: blue;
     color: rgb(255, 255, 255);
- 
+    width: 100.5px;
+    height: 30px;
+    margin: 0px;
 }
-input [type="radio"] .price {
-    display: none;
+
+
+.price {
+  
+    font-family:'BasisGrotesquePro-Regular' ;  
+    border: 1px solid rgb(156, 154, 154);
+    padding: 20px;
+    width: 100.5px;
+    height: 30px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
 }
+div .suma {
+    width: 40vw;
+    height: 5vh;
+}
+div .frequency {
+    margin-top: 4vh;
+}
+.contact {
+    margin-left: 0vw;
+    margin-top: 6vh;
+}
+p.contact {
+    font-family:'BasisGrotesquePro-Regular' ;  
+}
+div.name [type="text"] {
+border: none;
+border-bottom: 1px solid rgb(156, 154, 154);
+padding-bottom: 5px;
+width: 24vw;
+}
+div.email [type="text"] {
+    border: none;
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding-bottom: 5px;
+    width: 24vw;
+    }
+div.accept [type="checkbox"] {
+    margin-top: 5vh;
+    margin-left: 0vw;
+}  
+.accept a{
+    text-decoration: none;
+    font-family:'BasisGrotesquePro-Light' ;
+    color: blue;
+}  
+div.personal-data [type="checkbox"] {
+    margin-top: 2vh;
+    margin-left: 0vw;  
+}
+.personal-data a{
+    text-decoration: none;
+    font-family:'BasisGrotesquePro-Light' ;
+    color: blue;
+} 
+button.submit {
+    margin-top: 5vh;
+    width: 12vw;
+    height: 6vh;
+    color: white;
+    background-color: blue;
+    border-radius: 0;
+    border: none;
+}
+
+
+
 
 
