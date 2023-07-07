@@ -10,6 +10,7 @@
 <body>
 
   <main>
+
     <div>
       <h4>ІНВЕСТИЦІЇ</h4>
       <span class="do">ЗРОБИТИ </span>
@@ -18,17 +19,19 @@
     </div>
   
     <div class="form-container">
-      <form action="#" method="POST">
+  
+    <form action="#" method="POST">
     
-        <label class="payment-method" for="bank card">Банківська карта</label>
-        <input type="radio" name="payment" id="bank card">
+        <label class="payment-method" for="bank-card">Банківська карта</label>
+        <input type="radio" name="payment" id="bank-card">
   
         <label class="payment-method" for="PayPal">PayPal</label>
         <input type="radio" name="payment" id="PayPal">
   
-        <label class="payment-method" for="PayPal">Банківська платіжна квитанція</label>
-        <input type="radio" name="payment" id="PayPal">
-  
+        <label class="payment-method" for="Pay-Pal">Банківська платіжна квитанція</label>
+        <input type="radio" name="payment" id="frequency">
+   
+        
         <p class="card">БАНКІВСЬКА КАРТА</p>
 
         <div class="container">
@@ -45,64 +48,47 @@
           </div>
 
          </div>
+       
 
          <div class="frequency">
           <label class="payment-method" for="when">Щомісячно</label>
-          <input type="radio" name="how often" id="bank card">
+          <input type="radio" name="how-often" id="monthly">
     
           <label class="payment-method" for="when">Одноразово</label>
-          <input type="radio" name="how often" id="PayPal">
+          <input type="radio" name="how-often" id="one-time">
          </div>
 
          <p class="contact">ІМ'Я</p> 
          <div class="name"><input type="text" placeholder="Напишіть ваше ім'я"></div>
          <p class="contact">EMAIL</p>
          <div class="email"> <input type="text" placeholder="Напишіть вашу електронну адресу"></div>
+        
 
-         <form action="#" method="POST">
+   
           <div class="accept">
             <label for="conditions">
-              <input class="conditions" type="checkbox">Я приймаю <a href="#">Договір оферти</a>
+              <input class="conditions" type="checkbox" id="conditions">Я приймаю <a href="#">Договір оферти</a>
             </label>
            </div>
+   
           
-           <form action="#" method="POST">
-            <div class="personal-data">
-              <label for="conditions">
-                <input class="i-accept" class="conditions" type="checkbox">Я приймаю <a href="#">Угоду про використання персональних даних</a>
+ 
+             <div class="personal-data">
+              <label for="condition">
+                <input class="i-accept" type="checkbox" id="condition">Я приймаю <a href="#">Угоду про використання персональних даних</a>
               </label>
              </div>
-           </form>
+  
             <button class="submit">ВІДПРАВИТИ</button>
-     
-
-         </form>
       
-
-     </div>
-
-
+    </form>  
+  </div>
+    
     
       
     
-       
-
   </main>
    
     
-
-
-      
-
-
-
-
-
-
-    </form>
-
-
-
-
 </body>
 </html>
