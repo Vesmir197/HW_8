@@ -21,23 +21,67 @@
       <form action="#" method="POST">
     
         <label class="payment-method" for="bank card">Банківська карта</label>
-        <input type="radio" name="bank card" id="bank card">
+        <input type="radio" name="payment" id="bank card">
   
         <label class="payment-method" for="PayPal">PayPal</label>
-        <input type="radio" name="PayPal" id="PayPal">
+        <input type="radio" name="payment" id="PayPal">
   
         <label class="payment-method" for="PayPal">Банківська платіжна квитанція</label>
-        <input type="radio" name="PayPal" id="PayPal">
+        <input type="radio" name="payment" id="PayPal">
   
         <p class="card">БАНКІВСЬКА КАРТА</p>
 
-        <input type="radio" name="price" id="one"> <label class="price" for="one">50000</label>
-        <input type="radio" name="price" id="two"> <label class="price" for="two">30000</label>
-        <input type="radio" name="price" id="three"> <label class="price" for="three">10000</label>
-        <input type="radio" name="price" id="four"> <label class="price" for="four">1000</label>
-        <input type="radio" name="price" id="four"> <label class="price" for="four">1000</label>
+        <div class="container">
+         
+        <div class="amount">
+            <input type="radio" name="price" id="one"> <label class="price" for="one">50000</label>
+            <input type="radio" name="price" id="two"> <label class="price" for="two">30000</label>
+            <input type="radio" name="price" id="three"> <label class="price" for="three">10000</label>
+            <input type="radio" name="price" id="four"> <label class="price" for="four">1000</label>
+          </div>
+
+          <div class="suma">
+            <input class="suma" type="text" name="suma" id="suma" placeholder="ІНША СУМА"> <label class="suma" for="suma"></label>
+          </div>
+
+         </div>
+
+         <div class="frequency">
+          <label class="payment-method" for="when">Щомісячно</label>
+          <input type="radio" name="how often" id="bank card">
+    
+          <label class="payment-method" for="when">Одноразово</label>
+          <input type="radio" name="how often" id="PayPal">
+         </div>
+
+         <p class="contact">ІМ'Я</p> 
+         <div class="name"><input type="text" placeholder="Напишіть ваше ім'я"></div>
+         <p class="contact">EMAIL</p>
+         <div class="email"> <input type="text" placeholder="Напишіть вашу електронну адресу"></div>
+
+         <form action="#" method="POST">
+          <div class="accept">
+            <label for="conditions">
+              <input class="conditions" type="checkbox">Я приймаю <a href="#">Договір оферти</a>
+            </label>
+           </div>
+          
+           <form action="#" method="POST">
+            <div class="personal-data">
+              <label for="conditions">
+                <input class="i-accept" class="conditions" type="checkbox">Я приймаю <a href="#">Угоду про використання персональних даних</a>
+              </label>
+             </div>
+           </form>
+            <button class="submit">ВІДПРАВИТИ</button>
      
-    </div>
+
+         </form>
+      
+
+     </div>
+
+
     
       
     
