@@ -102,7 +102,9 @@ input:checked + .price {
     margin: 0px;
 }
 
-
+.amount {
+    display: flex;
+}
 .price {
   
     font-family:'BasisGrotesquePro-Regular' ;  
@@ -111,11 +113,11 @@ input:checked + .price {
     width: 100.5px;
     height: 30px;
     margin: 0px;
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 div .suma {
-    width: 40vw;
+    width: 562px;
     height: 5vh;
 }
 div .frequency {
@@ -141,8 +143,8 @@ div.email [type="text"] {
     width: 24vw;
     }
 div.accept [type="checkbox"] {
-    margin-top: 5vh;
     margin-left: 0vw;
+    margin-top: 5vh;
 }  
 .accept a{
     text-decoration: none;
