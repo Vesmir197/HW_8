@@ -107,8 +107,8 @@ input:checked + .price {
 .price {
   
     font-family:'BasisGrotesquePro';
-    font-weight: 500; 
-    color: rgb(66, 64, 64); 
+    font-weight: 600; 
+    color: rgb(84, 82, 82); 
     border: 1px solid rgb(156, 154, 154);
     padding: 20px;
     width: 100.5px;
