@@ -83,7 +83,6 @@ form {
 margin-top: 5%;
 font-family:'BasisGrotesquePro-Light' ;
 color: rgb(108, 105, 105);
-padding: 2%;
 }
 .card {
     font-family:'BasisGrotesquePro-Regular' ;  
@@ -107,7 +106,9 @@ input:checked + .price {
 }
 .price {
   
-    font-family:'BasisGrotesquePro-Regular' ;  
+    font-family:'BasisGrotesquePro';
+    font-weight: 500; 
+    color: rgb(66, 64, 64); 
     border: 1px solid rgb(156, 154, 154);
     padding: 20px;
     width: 100.5px;
