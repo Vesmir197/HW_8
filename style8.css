@@ -90,13 +90,12 @@ color: rgb(108, 105, 105);
 }
 div.amount [type="radio"]{
     display: none;
-    width: 300px;
+    width: 302px;
 }
 input:checked + .price {
     border: 0px solid rgb(156, 154, 154);
     background-color: blue;
     color: rgb(255, 255, 255);
-    width: 100.5px;
     height: 30px;
     margin: 0px;
 }
@@ -111,7 +110,7 @@ input:checked + .price {
     color: rgb(84, 82, 82); 
     border: 1px solid rgb(156, 154, 154);
     padding: 20px;
-    width: 100.5px;
+    width: 104px;
     height: 30px;
     margin: 0px;
     display: flex;
@@ -119,7 +118,7 @@ input:checked + .price {
     justify-content: center;
 }
 div .suma {
-    width: 562px;
+    width: 576px;
     height: 5vh; 
 }
 div .frequency {
