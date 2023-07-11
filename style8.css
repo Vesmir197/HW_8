@@ -114,12 +114,13 @@ input:checked + .price {
     width: 100.5px;
     height: 30px;
     margin: 0px;
-    display: block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div .suma {
     width: 562px;
-    height: 5vh;
+    height: 5vh; 
 }
 div .frequency {
     margin-top: 4vh;
